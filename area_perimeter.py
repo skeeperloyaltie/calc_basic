@@ -65,7 +65,9 @@ class Object:
 def main():
     """Main function"""
     value = Object()
-    variables = input('enter any value numbers [Radius, Height, Base, Hypotenuse, width] Enter any not fixed to all of them: ').strip()
+    variables = input("enter any value numbers [Radius, Height, Base,"
+                      "Hypotenuse, width] Enter any not fixed"
+                      "to all of them: ").strip()
     for i in range(len(variables)):
         if i == 1:
             value.circle()
